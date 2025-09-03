@@ -146,7 +146,7 @@ body.v3 .breadcrumb {
 /* Community Name - Look + Effects + Position Overrides */
 body.v3 .main-nav .navbar-brand {
     color: white;
-    padding-top: 26px
+    padding-top: 53px
 }
 body.v3 .main-nav .navbar-brand h1:hover {
     color: orange;
