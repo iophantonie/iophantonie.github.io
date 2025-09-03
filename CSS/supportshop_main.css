@@ -1,0 +1,60 @@
+/* Generelle Pakete Overview Main-Packs  - Look + Effects + Position Overrides */
+body.v3.supporter-tier .purchase-package.tier:hover {
+    border-color: gold;
+    box-shadow: 0 14px 40px rgba(255,127,0,1), 0 2px 8px rgba(0,0,0,0.16);
+    transform: translateY(-8px) scale(1.03);
+}
+body.v3.supporter-tier .purchase-package.tier:hover .image-container img {
+    transform: scale(1.07) rotate(-2deg);
+}
+body.v3.supporter-tier .btn.btn-theme:hover {
+    background: rgba(0,0,0,0);
+    border-color: gold;
+    color: white !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+body.v3.supporter-tier .btn.btn-theme:hover::before {
+    left: 100%;
+}
+
+/* Seitenleiste Paginate  - Look + Effects + Position Overrides */
+body.v3.supporter-tier .paginate ul.pagination li.active .page-link, 
+body.v3.supporter-tier .paginate ul.pagination li .page-link:focus, 
+body.v3.supporter-tier .paginate ul.pagination li .page-link:hover {
+    background: none;
+    color: white;
+    border-color: gold;
+}
+body.v3.supporter-tier .paginate {
+    text-align: center;
+    margin-top: 18px;
+}
+body.v3.supporter-tier .paginate ul.pagination {
+    display: inline-flex;
+    background: none;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: none;
+}
+body.v3.supporter-tier .paginate ul.pagination li {
+    margin: 0 3px;
+}
+body.v3.supporter-tier .paginate ul.pagination li .page-link {
+    background: none;
+    color: white;
+    border: 2px solid #c28257;
+    border-radius: 6px;
+    padding: 7px 16px;
+    font-weight: 600;
+}
+body.v3.supporter-tier .paginate ul.pagination li.active .page-link, 
+body.v3.supporter-tier .paginate ul.pagination li .page-link:focus, 
+body.v3.supporter-tier .paginate ul.pagination li .page-link:hover {
+    background: none;
+    color: white;
+    border-color: gold;
+}
+
+
+

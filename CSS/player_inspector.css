@@ -1,0 +1,17 @@
+/* Generelles Overview - Look + Effects + Position Overrides */
+body.v3.inspector .frame.basic:hover{
+    border-color: gold;
+    box-shadow: 0 14px 40px rgba(255,127,0,1), 0 2px 8px rgba(0,0,0,0.16);
+    transform: translateY(-8px) scale(1.03);
+}
+body.v3.inspector .btn.btn-theme.center:hover,
+body.v3.inspector .btn.btn-theme.tiny:hover {
+    background: none;
+    color: white !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+body.v3.inspector .btn.btn-theme.center:hover::before,
+body.v3.inspector .btn.btn-theme.tiny:hover::before {
+    left: 100%;
+}
